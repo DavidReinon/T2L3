@@ -20,3 +20,6 @@ cut -c 1,3,5 users.txt
 
 7.
 cat users.txt | grep -V ^# | cut -d: -f1
+
+8.
+cat users.txt | grep -V ^# | grep -V ^_ | cut -d: -f1
