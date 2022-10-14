@@ -2,3 +2,6 @@ David Reinón Garcia
 
 1.
 head users.txt
+
+2.
+tail n-5 users.txt
