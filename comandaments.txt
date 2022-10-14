@@ -11,3 +11,6 @@ tail -n +11 users.txt
 
 4.
 tail -n +11 users.txt | head -n10
+
+5.
+cut -b1 users.txt
