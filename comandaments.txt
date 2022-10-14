@@ -42,4 +42,7 @@ cat users.txt | grep -V ^# | awk -F ":" '{print $1"-"$7}'
 14.
 cat users.txt | grep -V ^# | awk -F ":" '{print $5"*"$1}'
 
+15.
+cat users.txt | sed 's/false/NO/'
+
 
