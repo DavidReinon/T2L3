@@ -37,5 +37,9 @@ cat users.txt | sort -t: -k3 -n
 cat users.txt | grep -V ^# | cut -d: -f4 | sort -n
 
 13.
+cat users.txt | grep -V ^# | awk -F ":" '{print $1"-"$7}'
+
+14.
 cat users.txt | grep -V ^# | awk -F ":" '{print $5"*"$1}'
+
 
