@@ -23,3 +23,7 @@ cat users.txt | grep -V ^# | cut -d: -f1
 
 8.
 cat users.txt | grep -V ^# | grep -V ^_ | cut -d: -f1
+
+9.
+cat users.txt | grep -V ^# | cut -d: -f3
+
