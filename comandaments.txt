@@ -29,3 +29,6 @@ cat users.txt | grep -V ^# | cut -d: -f3
 
 10.
 sort -r users.txt
+
+11.
+cat users.txt | sort -t: -k3 -n
